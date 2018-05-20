@@ -1,0 +1,131 @@
+@font-face{
+    font-family:'poppins-light';
+    src: url("fonts/poppins-light.otf");
+}
+@font-face{
+    font-family:'poppins-extralight';
+    src: url("fonts/poppins-extralight.otf");
+}
+@font-face{
+    font-family:'poppins-semibold';
+    src: url("fonts/poppins-semibold.otf");
+}
+@font-face{
+    font-family:'poppins-regular';
+    src: url("fonts/poppins-regular.otf");
+}
+*,
+.blackbackground{
+    background: #000;
+    background-color: #000;
+    color: #fff;    
+    letter-spacing: 0.0625rem;
+}
+.wholewrap{
+    padding: 3.625rem 0;
+}
+.break{
+    display: block;
+}
+/* Navbar styling starts here */
+.nav-item{
+    font-family: "poppins-light";
+    font-size: 1rem;
+}
+.nav-item:not(:last-child){
+    margin-right: 2.5rem;    
+}
+.bottomNav{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    padding: 1.25rem 0;
+    background-color:rgba(55,55,55,0.3);
+}
+.bottomNav ul,
+.bottomNav > *,
+.bottomNav ul >*{
+    background: transparent;
+    background-color: transparent;
+}
+.bottomNav ul{
+    margin-bottom: 0;
+}
+.bottomNav li{
+    font-family:'poppins-regular';   
+    font-size: 0.75rem;
+}
+.bottomNav li:not(:last-child){
+    margin-right: 1.875rem;
+}
+.bottomNav a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Navbar styling ends here */
+
+/* Top banner section starts here */
+.bannerItem img{
+    top: -1.875rem;
+    position: absolute;
+    right: 0;
+}
+.header{
+    font-family: 'poppins-semibold'
+}
+.bannerItem h1{
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    margin-bottom: 2.5rem;
+}
+.bannerItem p{
+    font-family:'poppins-extralight';
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    margin-bottom:3.125rem;
+}
+.bannerItem .highlight{
+    color: #4f4f4f;
+}
+.workLink{
+    font-size: 1rem;
+    font-family: 'poppins-regular';
+    color: #fc6c55;
+    text-decoration: none;
+}
+.workLink:hover{
+    color: #fc6c55;    
+    text-decoration: none;    
+}
+.bannerItem .custom{
+    margin-top: 4.6875rem;
+    padding-left: 3.125rem;
+    z-index:1;
+}
+/* Works section starts here */
+.works .row{
+    padding: 8.25rem 0;
+}
+.works .content-wrap{
+    padding-top: 4.6875rem;
+    padding-left: 5rem;
+}
+.works .header{
+    font-family:'poppins-semibold';    
+    font-size: 2.5rem;
+    margin-bottom: 1.5625rem;
+}
+.works .subscene{
+    font-family:'poppins-regular';    
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+}
+.works .content{
+    font-family:'poppins-extralight';
+    font-size: 1rem;    
+    line-height: 1.875rem; 
+    margin-bottom: 3.125rem;   
+}
+/* Works section ends here */
+/* Top banner section ends here */
