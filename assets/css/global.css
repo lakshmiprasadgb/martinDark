@@ -21,6 +21,9 @@
     color: #fff;    
     letter-spacing: 0.0625rem;
 }
+img{
+    max-width: 100%;
+}
 .wholewrap{
     padding: 3.625rem 0;
 }
@@ -35,13 +38,17 @@
 .nav-item:not(:last-child){
     margin-right: 2.5rem;    
 }
+.navbar{
+    padding-left: 0;
+    padding-right: 0;
+}
 .bottomNav{
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 9;
     padding: 1.25rem 0;
-    background-color:rgba(55,55,55,0.3);
+    background-color:rgba(0,0,0,0.9);
 }
 .bottomNav ul,
 .bottomNav > *,
@@ -67,8 +74,7 @@
 
 /* Top banner section starts here */
 .bannerItem img{
-    top: -1.875rem;
-    position: absolute;
+    top: 4.6875rem;
     right: 0;
 }
 .header{
@@ -129,3 +135,89 @@
 }
 /* Works section ends here */
 /* Top banner section ends here */
+
+/* Experience page design starts here */
+.myself{
+    margin: 12.5rem 0 15rem 0;
+    font-family: 'poppins-light'
+}
+.myself p{
+    font-size: 1.25rem;
+    letter-spacing: 0.0625rem;
+    line-height: 2.375rem;
+}
+.myself p:last-child{
+    margin-top: 50px;
+}
+.achievements{
+    margin-bottom: 8.125rem;
+}
+.achievements .header{
+    font-family:'poppins-semibold';
+    font-size: 2.5rem;  
+    margin-bottom: 2.5rem;  
+}
+.skills li{
+    font-size: 0.875rem;
+    font-family: 'poppins-regular';
+    margin-bottom: 0.625rem;
+}
+.awards li{
+    font-family: 'poppins-regular';
+    font-size: 1.125rem;    
+}
+.awards .sub{
+    font-size: 1rem;
+    color: #fc6c55;
+    margin-bottom: 1.125rem;
+    margin-top: 0.3125rem;
+}
+/* Experience page design ends here */
+
+/* About page design starts here */
+
+.about{
+    font-family: 'poppins-light';   
+    margin-top: 7.1875rem;
+    margin-bottom: 5rem;
+    padding-left: 3.4375rem;
+}
+.single-wrap{
+    margin-bottom: 3.75rem;
+}
+.workplace{
+    padding-right: 5rem;
+}
+.workplace .head{
+    font-size: 1.75rem;
+}
+.time{
+    font-size: 1.25rem;
+}
+.desc{
+    font-size: 1rem;
+    line-height: 2.25rem;
+    color: #a0a0a0;
+}
+.studies .header{
+    font-size: 1.25rem;
+    font-family: 'poppins-light';   
+    margin-bottom: 1.25rem;    
+}
+.studies .head{
+    font-family:'poppins-semibold';
+    font-size: 1rem; 
+    margin-bottom: 0.9375rem;   
+}
+.studies .sub{
+    font-size: 1rem;
+    color: #a0a0a0;
+    line-height: 1.75rem;
+    margin-bottom: 2.8125rem;
+}
+.sub-divider{
+    font-size: 1.25rem;
+    margin-top: 3.4375rem;
+    margin-bottom: 2.1875rem;
+}
+/* About page design ends here */
