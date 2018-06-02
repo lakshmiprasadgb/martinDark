@@ -73,8 +73,14 @@ img{
 /* Navbar styling ends here */
 
 /* Top banner section starts here */
+.bannerItem {
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - 120px);
+}
 .bannerItem img{
-    top: 4.6875rem;
+    top: 50%;
+    transform: translateY(calc(-50% + 100px));
     right: 0;
 }
 .header{
