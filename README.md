@@ -1,3 +1,8 @@
-Portfolio Website - Martin
-Theme - Dark
-Technology - Plain HTML and Vanilla CSS
+
+# Martin - Portfolio Website
+
+
+Technology 
+
+- HTML
+- CSS
